@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mi Capilla</string>
+    <string name="action_settings">Acerca de</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_frg_iglesias">Cambiar mi ubicación</string>
+    <string name="txtLabel1">Contenido Personal:</string>
+    <string name="txtLabel2">Configuración:</string>
+    <string name="txtLabel3">¿Olvidaste tu contraseña?</string>
+    <string name="swchNoti">Notificaciones</string>
+    <string name="btn_iniciar_Sesión">Iniciar Sesión</string>
+    <string name="btn_iniciar_Sesión_FB">Iniciar Sesión con Facebook</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="btn_ubicacion">Guardar mi ubicación</string>
+    <string name="btn_recuperar">Recuperar</string>
+    <string name="btn_asistir">Asistir</string>
+    <string name="txtLabel4">Estado:</string>
+    <string name="txtLabel5">Ciudad:</string>
+    <string name="txtLabel6">Ingrese su correo electrónico para recuperar su contraseña:</string>
+    <string name="txtLabel7">Descripción:</string>
+    <string name="menu_perfil_guardar">Guardar</string>
+    <string name="menu_perfil_editar">Editar</string>
+    <string name="menu_perfil_cerrar_session">Cerrar sesión</string>
+    <string name="menu_perfil_cancelar">Cancelar edición</string>
+    <string name="txtLabel8">Datos Personales</string>
+    <string name="txtIniciarSesionMisEventos">Iniciar Sesión para visualizar sus eventos</string>
+
+</resources>

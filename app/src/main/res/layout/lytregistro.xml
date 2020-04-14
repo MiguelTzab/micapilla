@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.migueltzabtah.micapilla.Actividades.ActRegistro">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:context="com.migueltzabtah.micapilla.Fragments.Frg_Perfil">
+
+
+        <TextView
+            android:id="@+id/txtLabel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/txtLabel8"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="Correo Electrónico"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:fontFamily="@font/roboto"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boton_redondeado"
+            android:elevation="4dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/btn_registrarse"
+            android:textColor="#FFF" />
+
+    </LinearLayout>
+
+</LinearLayout>

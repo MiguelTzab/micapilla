@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.migueltzabtah.micapilla.Fragments.Frg_Iglesias">
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/btnUbicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:paddingBottom="20dp"
+                android:paddingTop="15dp">
+
+                <Button
+                    android:id="@+id/btnUbicacionChange"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:background="@drawable/boton_redondeado"
+                    android:elevation="4dp"
+                    android:fontFamily="@font/roboto"
+                    android:text="@string/btn_frg_iglesias"
+                    android:textColor="#FFF"
+                    android:typeface="normal" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imgVwLoading"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/progress" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rvIglesias"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:scrollbars="vertical" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

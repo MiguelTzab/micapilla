@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:id="@+id/frg_perfil"
+    android:background="#FFF"
+    tools:context="com.migueltzabtah.micapilla.Fragments.Frg_Perfil">
+
+
+    <TextView
+        android:id="@+id/txtLabel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/txtLabel1"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="Correo Electrónico"
+        android:inputType="textEmailAddress" />
+
+    <com.subhrajyoti.passwordview.PasswordView
+        android:id="@+id/editPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/roboto"
+        app:eyeTint="@color/colorPrimaryDark"
+        android:ems="10"
+        android:hint="Contraseña" />
+
+    <TextView
+        android:id="@+id/txtLabel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/txtLabel2"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <Switch
+        android:id="@+id/swchNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/swchNoti"
+        android:textColor="#676868"
+        android:theme="@style/SCBSwitch" />
+</LinearLayout>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.migueltzabtah.micapilla.Fragments.Frg_Login">
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFF"
+            android:padding="30dp"
+            tools:context="com.migueltzabtah.micapilla.Fragments.Frg_Login">
+
+            <!-- TODO: Update blank fragment layout -->
+
+            <TextView
+                android:id="@+id/txtLabel4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="@string/btn_iniciar_Sesión"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Correo Electrónico"
+                android:inputType="textEmailAddress" />
+
+            <com.subhrajyoti.passwordview.PasswordView
+                android:id="@+id/editPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:eyeTint="@color/colorPrimaryDark"
+                android:ems="10"
+                android:hint="Contraseña" />
+
+
+            <TextView
+                android:id="@+id/txtLabel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:text="@string/txtLabel3"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btnIniciarSesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_redondeado"
+                android:elevation="4dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/btn_iniciar_Sesión"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnIniciarFB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_redondeado"
+                android:elevation="4dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/btn_iniciar_Sesión_FB"
+                android:textColor="#FFF" />
+
+            <Button
+                android:id="@+id/btnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton_redondeado"
+                android:elevation="4dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/btn_registrarse"
+                android:textColor="#FFF" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
+

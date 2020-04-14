@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/menu_perfil_editar"
+        android:id="@+id/editarPerfil"
+        app:showAsAction="never"/>
+    <item android:title="@string/menu_perfil_guardar"
+        android:id="@+id/guardarPerfil"
+        app:showAsAction="never"/>
+    <item android:title="@string/menu_perfil_cancelar"
+        android:id="@+id/cancelarEdicion"
+        app:showAsAction="never"/>
+    <item android:title="@string/menu_perfil_cerrar_session"
+        android:id="@+id/cerrarSesion"
+        app:showAsAction="never"/>
+</menu>
